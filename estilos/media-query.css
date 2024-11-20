@@ -20,31 +20,13 @@
     float: right;
     width: 70vw;
   }
-}
 
-@media screen and (min-width: 992px) and (max-width: 1200px) {
-  body {
-    background-image: linear-gradient(to top, #3d0a49, #5015bd, #5015bd, #027fe9);
-  }
-
-  section#login {
-    width: 950px;
-  }
-
-  section#login > div#imagem {
-    float: left;
-    width: 50%;
-    height: 100vh;
-    background-position: left center;
-  }
-
-  section#login > div#formlario {
-    float: right;
-    width: 50%;
+  section#login > div#formulario > p {
+    font-size: 0.9em;
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 992px){
   body {
     background-image: linear-gradient(to top, #3d0a49, #5015bd, #5015bd, #027fe9);
   }
@@ -63,5 +45,13 @@
   section#login > div#formlario {
     float: left;
     width: 50%;
+  }
+
+  section#login > div#formulario > h1 {
+   font-size: 1.7em;
+  }
+
+  section#login > div#formulario > p {
+    font-size: 1em;
   }
 }
